@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Link from './Link.js';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         >
           Learn React
         </a>
+        <Link page="http://www.lemonde.fr">LeMonde</Link>
       </header>
     </div>
   );
